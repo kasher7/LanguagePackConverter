@@ -7,16 +7,12 @@ Converting Traditional Chinese Language Packs to Simplified
   - Python3
   - hanzicov
 
-- Script has not been generalized, it is written specificly for converting the language packs formatted for Civilization 5. The following description will help you modify the script to suit your needs. A generalized converter will be added in the future.
-
 - Using the converter:
-  - Copy the the language pack folder
-    - In the case of CIV 5 this is likely located at located at "C:\Program Files (x86)\Steam\steamapps\common\Sid Meier's Civilization V\Assets\Gameplay\XML\NewText\ZH_Hant_HK"
-  - In a new directory, paste the language pack folder and create a new separate directory called "NewPack"
-  - Paste another copy of the language pack folder into "NewPack"
-  - Run the python script in your current directory (should have subdirectories "NewPack" and "ZH_Hant_HK")
-  - "NewPack" should now contain a converted version of ZH_Hant_HK. Copy this file and use it to replace the original "ZH_Hant_HK" file, in its original location.
-  - Start the game and in game text (with a few exceptions such as the initial loading screen) should be in Simplified Chinese
+  - **NOTE**: This script will only work on games with language packs stored as the XML file type.
+  - Navigate to game file location in steam folder. For a windows machine this would likely be something similar to ""C:\Program Files (x86)\Steam\steamapps\common\NameOfGame"
+  - If you have python3 and hanzicov installed, run fanToJian.py in your game directory and it should automatically convert all XML files with traditional Chinese to simplified.
+  - If you do not have python3, you can run the fanToJian.exe (link below) file in your game directory and it should automatically convert all XML files with traditional Chinese to simplified.
   
-  
- - In the future I will likely make a script that iterates through all game files and that works for any steam game. This is just what I was able to whip up in an hour or so. Enjoy.
+-Use this program at your own risk. I reccomend that you backup your game files before running this script, as it may alter files in an unwanted manner (if non XML files are in someway dependent on the internal XML text, changing from traditional to simplified characters could result in issues with your game).
+
+Link to exe:[tbd]
