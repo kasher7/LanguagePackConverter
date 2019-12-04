@@ -15,4 +15,4 @@ Converting Traditional Chinese Language Packs to Simplified
   
 -Use this program at your own risk. I reccomend that you backup your game files before running this script, as it may alter files in an unwanted manner (if non XML files are in someway dependent on the internal XML text, changing from traditional to simplified characters could result in issues with your game).
 
-Link to exe:[tbd]
+Link to exe:https://sourceforge.net/projects/languagepackconverter/files/fanToJian.exe/download
