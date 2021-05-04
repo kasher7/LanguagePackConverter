@@ -10,7 +10,8 @@ def toSimplified(file_name):
 
     # changing a field text
     for elem in root.iter():
-        elem.text = hanz.toSimplified(elem.text)
+        if elem.text is not None:
+            elem.text = hanz.toSimplified(elem.text)
 
     tree.write(file_name, encoding="utf-8")
 
